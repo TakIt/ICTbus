@@ -7,6 +7,50 @@
   <title>IctBus</title>
 </head>
 <body>
+<header>
+  <div class = "headerInner">
+    <h1>バス時刻表</h1>
+    <a>学休期ダイヤ＞</a>
+  </div>
+</header>
+
+<form action="hoge.html">
+  <div class="mainInner">
+    <article>
+      <p>
+      <h2>往路</h2>
+        <p class="clearfix">
+          <input type="radio" name="ouro" id="o1" value="千歳駅"　checked>
+          <label for="o1">千歳駅</label>
+          <input type="radio" name="ouro" id="o2" value="南千歳駅">
+          <label for="o2">南千歳駅</label>
+          <input type="radio" name="ouro" id="o3" value="実験棟">
+          <label for="o3">実験棟</label>
+          <input type="radio" name="ouro" id="o4" value="本部等">
+          <label for="o4">本部棟</label>
+          <h2>時刻</h2>
+        <script>
+          function pTime() {
+            var nowTime = new Date();
+            var nHour = nowTime.getHours();
+            var nMin = nowTime.getMinutes();
+            var nTime = nHour + ":" + nMin;
+            document.form.otime=nHour+":"+nMin;
+          }
+        </script>
+        <div onload="pTime()">
+          <form name="form">
+        <input type="time" name="otime" value="nTime" required>
+          </form>
+
+        </div>
+      </p>
+
+    </section>
+    </article>
+  </div>
+</form>
+</main>
   
 </body>
 </html>
