@@ -13,7 +13,7 @@ public class homewardDAO {
        // String x = zikoku();
         LocalTime x = LocalTime.now();
         //xの値に時刻が入る。
-        var sql = "SELECT * FROM 復路時刻表　WHERE 復路時刻表.CHITOSE > " +x;
+        var sql = "SELECT * FROM 復路時刻表　WHERE 復路時刻表.? > " +x;
     }
 
 }
