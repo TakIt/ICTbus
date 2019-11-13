@@ -1,7 +1,6 @@
-<<<<<<< Updated upstream
-class HomeController
-=======
+package com.example.ICT.controller;
+
 public class HomeController{
 
 }
->>>>>>> Stashed changes
+

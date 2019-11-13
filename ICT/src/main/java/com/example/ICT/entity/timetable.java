@@ -1,11 +1,15 @@
-public class timetable implements Serializable{
+package com.example.ICT.entity;
+
+import java.io.Serializable;
+import java.time.LocalDateTime;
+
+public class timetable implements Serializable {
     /**
      * 今の時間
      */
     private LocalDateTime time;
 
     private String platform;
-    private LocalDateTime time;
 
     public timetable(String platform){
         this.platform=platform;
