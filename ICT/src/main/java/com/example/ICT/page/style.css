@@ -1,7 +1,12 @@
 .headerInner{
     background:linear-gradient(to top, #b2fefa, #0ed2f7);
     margin: auto;
-    display: flex;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
     position: relative;
 }
 form{
@@ -11,8 +16,7 @@ form{
 }
 
 div{
-    padding: 2rem 0;
-    border-bottom:solid #e1e1e1;
+    padding: 1rem 0;
 }
 
 h2{
